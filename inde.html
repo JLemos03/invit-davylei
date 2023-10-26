@@ -7,16 +7,21 @@
     <title>David y Leidy</title>
 <!--boostrap Css-->
     <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-<!--custom Css-->    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--custom Css-->    
     <link rel="stylesheet" href="style.css">
 
 <!--fonts google-->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Allura&family=Dancing+Script:wght@600&family=Tangerine&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
 </head>
 <body>
-    <div class="row m-0 pt-1 py-1 pb-1">
+<main>
+    <div class="row m-0 pt-1 py-1 pb-1" id="video">
         <img src="img/Captura de pantalla 2023-09-30 a la(s) 11.20.52 a. m..png" alt="">
     </div>
     <div class="container">
@@ -24,7 +29,7 @@
 
       <div class="row px-4 py-3">
 
-                <div class="card my-1 py-3 ">
+                <div class="card my-1 py-3 " data-aos="zoom-in-up">
                     <h1 class="title">Nos Casamos!</h1>
                     <div class="gradient"></div>
                      <div class="info my-2 mx-2">
@@ -35,7 +40,7 @@
 
          
 
-                <div class="card my-1 py-3">
+                <div class="card my-1 py-3" data-aos="zoom-in-up">
                     <h1 class="title">9 de Diciembre 2023 </h1>
                      <div class="info">
                         
@@ -77,7 +82,7 @@
                 
           
         </div>
-        <div class="card my-1 py-3 " >
+        <div class="card my-1 py-3 " data-aos="zoom-in-up" >
           <h1 class="title">Ceremonia y Recepción</h1>
           <div class="container">
             <img src="img/igle.webp" class="img-igle" alt="">
@@ -95,7 +100,7 @@
        </div>
        
 
-        <div class="card py-2 px-2">
+        <div class="card py-2 px-2" data-aos="zoom-in-up">
        <h1 class="title">Galería</h1>
       <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -126,7 +131,7 @@
       </div>
 
       </div>
-        <div class="card my-1 py-3 ">
+        <div class="card my-1 py-3 " data-aos="zoom-in-up">
 
   <div class="gradient"></div>
     <div class="info my-2 mx-2">
@@ -135,7 +140,7 @@
       <div class="text"></div>
     </div>
        </div>
-        <div class="card my-1 py-3 " >
+        <div class="card my-1 py-3 " data-aos="zoom-in-up">
 
       <h1 class="title">Ceremonia y Recepción</h1>
        <div class="container">
@@ -157,7 +162,7 @@
 
 
     </div>
-    <div class="card my-1 py-3 " >
+    <div class="card my-1 py-3 " data-aos="zoom-in-up">
       <h1 class="title">Música</h1>
       <div class="container">
         <img src="img/Musica.webp" class="img-igle" alt="">
@@ -172,7 +177,7 @@
         <a href="https://spotify.link/3cU5EbOqADb" class="btn btn-dark">Playlist Spotify</a>
         </div>
    </div>
-   <div class="card my-1 py-3 " >
+   <div class="card my-1 py-3 " data-aos="zoom-in-up">
     <h1 class="title">Lluvia de Sobres</h1>
     <div class="container">
       <img src="img/regalo.webp" class="img-igle" alt="">
@@ -187,37 +192,41 @@
       <a href="#" class="btn btn-dark">Hacer Transferencia</a>
       </div>
 
+    </main>
+        <footer>
+        </div class="end mb-0">
+        <div class="confirm-asisist pb-0">
+         <h3 class="textend p-3">Confirmar asistencia</h3>
+         <p class="textend p3">Confirma tu asistencia a la boda de David y Leidy. <br>Da clic en el botón de confirmar asistencia.</p>
+         <a class="btn btn-dark m-3">Confirmar Asistencia</a>
+        </div>
+        
+        <div class="confirm-asisist mt-0 pb-2">
+        
+         <p class="textend ">Déjale un mensaje  a los novios....</p>
+         <a class="btn btn-dark m-2 " href="https://api.whatsapp.com/send?phone=TUNUMERODETELEFONO">
+          <i class="fab fa-whatsapp"></i> Escribenos
+        </a>
+        
+        <a class="btn btn-dark" href="tel:TUNUMERODETELEFONO">
+          <i class="fas fa-phone"></i> Llámanos
+        </a>
+        
+        <div class="Hastag my-5">#BodaDavid&Leidy</div>
+        </div>
+        <div class="ref">Designed by JL</div>
+        </div>
+        </footer>
 
-    
-
-
-
-
-
-
-
-     
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 <!--Boostrap JS-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 <script src="index.js"></script>
 </body>
-
-<footer>
-</div>
-<div class="confirm-asisist pb-2">
- <h3 class="">Confirmar asistencia</h3>
- <p class="">Confirma tu asistencia a la boda de David y Leidy. <br>Da clic en el botón de confirmar asistencia.</p>
- <a class="btn btn-dark">Confirmar Asistencia</a>
-</div>
-
-<div class="confirm-asisist pb-2">
-
- <p>Déjale un mensaje  a los novios....</p>
- <a class="btn btn-dark">Confirmar Asistencia</a>
-</div>
-</div>
-</footer>
 </html>
 
 

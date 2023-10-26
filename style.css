@@ -3,9 +3,17 @@ body {
     background-size: cover; /* Opciones: 'cover' para cubrir todo el fondo, 'contain' para ajustarse al tamaño de la ventana del navegador */
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center;
 /*background: -webkit-linear-gradient(to right, #e4e4d9, #215f00);  Chrome 10-25, Safari 5.1-6 
 background: linear-gradient(to right, #e4e4d9, #215f00); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-text-align: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+  padding-bottom: 2em;
+  
 }
 p{
     margin: 0;
@@ -131,6 +139,7 @@ p{
       background-image: url('img/img-movil2.png');
       background-size: cover;
       background-repeat: no-repeat;
+      background-position: center;
     }
   }
 
@@ -140,6 +149,27 @@ p{
 
   }
 
-  footer{
-    min-width: 100vh;
+  .Hastag{
+    color: aliceblue;
   }
+
+  .ref{
+    background-color: rgb(64, 39, 35);;
+    color: aliceblue;
+  }
+  .btn.btn-dark{
+    background-color: rgb(64, 39, 35); /* Color negro (puede cambiarlo a otro color) */
+    
+  }
+
+  #video{
+    min-height: 100vh;
+  }
+  footer{
+    width: 100%;
+    margin-top: auto;
+    bottom: 0;
+    left: 0;
+
+  }
+
