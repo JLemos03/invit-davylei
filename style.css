@@ -11,6 +11,7 @@ background: linear-gradient(to right, #e4e4d9, #215f00); W3C, IE 10+/ Edge, Fire
     flex-direction: column;
     min-height: 100vh;
 }
+
 main{
   padding-bottom: 2em;
   
@@ -134,12 +135,16 @@ p{
     max-width: 100%;
 }
 
+
 @media screen and (max-width: 768px) {
     body {
       background-image: url('img/img-movil2.png');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
+    }
+    #video{
+      min-height: 100vh;
     }
   }
 
@@ -162,9 +167,7 @@ p{
     
   }
 
-  #video{
-    min-height: 100vh;
-  }
+
   footer{
     width: 100%;
     margin-top: auto;
