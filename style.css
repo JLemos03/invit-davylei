@@ -10,10 +10,11 @@ background: linear-gradient(to right, #e4e4d9, #215f00); W3C, IE 10+/ Edge, Fire
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    
 }
 
 main{
-  padding-bottom: 2em;
+  margin: 40px;
   
 }
 p{
@@ -73,6 +74,7 @@ p{
 
     background-color: rgba(255, 255, 255, 0.37);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.725); 
+    width: 100%;
 }
 .card:hover .gradient{
     opacity: 1;
@@ -125,11 +127,12 @@ p{
       }
 
 .container{
+    
     display: flex;
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
     padding: 1;
-    margin: 2;
+    margin-left: 1;
 }
 
 .img-igle{
@@ -137,13 +140,34 @@ p{
 }
 
 
-@media screen and (max-width: 720px) {
+@media screen and (min-width: 720px) {
     body {
       background-image: url('img/img-movil2.png');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
+      display: flex;
+      flex-direction: column;
+      padding: auto auto auto auto;
     }
+    footer{
+      background-color: rgb(195, 147, 140);
+     
+      margin-top: 5;
+      padding: 0;
+      bottom: 0;
+
+
+    }
+    main{
+      margin: 40px;
+      
+    }
+
+
+  .card{
+    margin-left:5% ;
+  }
 
   }
 
