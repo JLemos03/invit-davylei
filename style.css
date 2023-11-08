@@ -81,8 +81,9 @@ p{
 
 
 .info{
-    position: center;
-    top: 50%;
+    margin: 0 auto;
+    max-width: 100%;
+    
     /* transform: translateY(-50%); */
     
 }
@@ -136,17 +137,20 @@ p{
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 720px) {
     body {
       background-image: url('img/img-movil2.png');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
     }
-    #video{
-      min-height: 100vh;
-    }
+
   }
+
+.carousel{
+  margin: 0 auto;
+  max-width: 100%;
+}
 
   .confirm-asisist{
     background-color: rgb(195, 147, 140);
