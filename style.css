@@ -1,0 +1,215 @@
+body {
+    background-image: url('img/imgFondo.jpeg');/* fallback for old browsers */
+    background-size: cover; /* Opciones: 'cover' para cubrir todo el fondo, 'contain' para ajustarse al tamaño de la ventana del navegador */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+/*background: -webkit-linear-gradient(to right, #e4e4d9, #215f00);  Chrome 10-25, Safari 5.1-6 
+background: linear-gradient(to right, #e4e4d9, #215f00); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+main{
+  margin: 40px;
+  
+}
+p{
+    margin: 0;
+    font-weight: 200;
+
+}
+
+.textMusic{
+    font-size: 2.1em;
+
+}
+   
+
+.tittle{
+    font-family: 'Allura', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Tangerine', cursive;
+    font-size: 2.2em;
+    font-weight: 700;
+    text-align: center;
+
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    font-family: "Roboto", sans-serif;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;
+
+} */
+
+/* .card{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    height: 250px;
+    width: 350px;
+    margin-right: 3rem;
+    top: 50%; /* Centra verticalmente en relación con el contenedor padre */
+    /* left: 50%; /* Centra horizontalmente en relación con el contenedor padre */
+  /* transform: translate(-50%, -50%); Corrige el centrado
+} */
+.card{
+
+    background-color: rgba(255, 255, 255, 0.37);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.725); 
+    width: 100%;
+}
+.card:hover .gradient{
+    opacity: 1;
+}
+
+
+
+.info{
+    margin: 0 auto;
+    max-width: 100%;
+    
+    /* transform: translateY(-50%); */
+    
+}
+
+#cuentaRegresiva{
+    font-size: 2.5vh;
+}
+
+.text{
+    font-size: 2em;
+    font-weight: 700;
+    font-family: 'Allura', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Tangerine', cursive;
+}
+
+.time{
+    position: absolute;
+    bottom: 0;
+    padding: 2rem;
+}
+
+.title{
+    font-size: 3.5em;
+    font-weight: 700;
+    font-family: 'Allura', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Tangerine', cursive;
+    text-align: center;
+}
+
+.btn-light {
+   background-color: transparent; /* Color de fondo del botón */
+      }
+      .btn.btn-light:hover {
+        background-color: transparent !important; /* Establece el fondo transparente sin importar otros estilos */
+        color: #212529 !important; /* Establece el color del texto deseado sin importar otros estilos */
+        border-color: #ced4da !important; /* Establece el color del borde deseado sin importar otros estilos */
+      }
+
+.container{
+    
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    padding: 1;
+    margin-left: 1;
+}
+
+.img-igle{
+    max-width: 100%;
+}
+
+
+@media screen and (min-width: 720px) {
+    body {
+      background-image: url('img/img-movil2.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      padding: auto auto auto auto;
+    }
+    footer{
+      background-color: rgb(195, 147, 140);
+     
+      margin-top: 5;
+      padding: 0;
+      bottom: 0;
+
+
+    }
+    main{
+      margin: 40px;
+      
+    }
+
+
+  .card{
+    margin-left:5% ;
+  }
+
+  }
+
+.carousel{
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+  .confirm-asisist{
+    background-color: rgb(195, 147, 140);
+ 
+
+  }
+
+  .Hastag{
+    color: aliceblue;
+  }
+
+  .ref{
+    background-color: rgb(64, 39, 35);;
+    color: aliceblue;
+  }
+  .btn.btn-dark{
+    background-color: rgb(64, 39, 35); /* Color negro (puede cambiarlo a otro color) */
+    
+  }
+
+
+  footer{
+    width: 100%;
+    margin-top: auto;
+    bottom: 0;
+    left: 0;
+
+  }
+
+  .imgQr{
+    max-width: 70%;
+    align-items: center;
+    
+
+  }
+  
+ 
+
